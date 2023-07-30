@@ -1,0 +1,12 @@
+.select {
+  margin-left: 20px;
+  width: 150px;
+  background: rgb(75, 74, 74);
+  border: none;
+  color: #fcfcfc;
+  cursor: pointer;
+}
+
+option:not(:checked) {
+  background-color: rgb(75, 74, 74);
+}

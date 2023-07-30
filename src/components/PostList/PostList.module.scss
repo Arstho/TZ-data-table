@@ -1,0 +1,46 @@
+.body {
+  height: 100%;
+  margin: 0 20px;
+  thead {
+  tr {
+      th {
+        &:first-child {
+          text-align: center;
+          width: 5vw;
+        }
+        &:nth-child(2) {
+          text-align: center;
+          width: 30vw;
+        }
+        &:last-child {
+          text-align: center;
+          width: 65vw;
+        }
+        border: 1px solid rgb(175, 171, 171);
+        color: white;
+        background-color: rgb(75, 74, 74);
+      }
+    }
+  }
+  tbody {
+    height: 40vh;
+    tr {
+      td {
+        &:first-child {
+          text-align: center;
+          width: 10%;
+        }
+        &:nth-child(2) {
+          text-align: start;
+          width: 30%;
+        }
+        &:last-child {
+          text-align: start;
+          width: 60%;
+        }
+        border: 1px solid rgb(175, 171, 171);
+        height: 7vh;
+      }
+    }
+  }
+}
