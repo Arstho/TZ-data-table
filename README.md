@@ -1,12 +1,10 @@
-# Getting Started with Create React App
+## ТЗ - Список данных
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# описание приложения:
+- 1. При входе на страницу отображается таблица с данными.
+- 2. На одной странице таблицы показывается только 10 записей.
+- 3. Под таблицей распологаются элементы, показывающие количество страниц таблицы.
+- 4. Кнопки "Назад" и "Далее" переключают страницы таблицы.
+- 5. При нажатии на заголовки столбцов происходит сортировка записей.
+- 6. В строке поиска можно ввести любое значение, и в таблице отобразится запись, в которой данное значение присутствует. Посик по всем столбцам.
+- 7. Страница таблицы должна отображаться в URL браузера.
